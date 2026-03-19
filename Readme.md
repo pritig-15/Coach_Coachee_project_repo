@@ -10,6 +10,8 @@ The system is designed to be **fast, explainable, and scalable**, generating rec
 
 ## 🔹 Architecture
 
+![App UI](images/Architecture.jpg)
+
 Frontend (React)
 ↓
 Backend (Node.js + Express)
