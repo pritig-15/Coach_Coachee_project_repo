@@ -123,12 +123,6 @@ Personalized coaching suggestions
 
 Feedback-based ranking improvements
 
-## 🔹 Demo
-
-### UI Preview
-
-![App UI](images/UI.img.png)
-
 🔹 Time Spent
 
 Approx. 8–10 hours
