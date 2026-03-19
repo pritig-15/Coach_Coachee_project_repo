@@ -39,17 +39,6 @@ Optional AI Module (Embeddings / NLP-based improvements)
 
 ---
 
-## 🔹 Matching Parameters
-
-| Parameter | Weight |
-|----------|--------|
-| Goals–Expertise Match | 40% |
-| Industry Match | 15% |
-| Experience | 10% |
-| Coaching Style | 10% |
-| Language | 10% |
-
----
 
 ## 🔹 Features
 
