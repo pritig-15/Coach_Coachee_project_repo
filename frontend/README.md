@@ -1,4 +1,4 @@
-🚀Coach–Coachee Matchmaking Recommendation System
+# 🚀 Coach–Coachee Matchmaking Recommendation System
 
 ## 🔹 Overview
 
@@ -39,17 +39,6 @@ Optional AI Module (Embeddings / NLP-based improvements)
 
 ---
 
-## 🔹 Matching Parameters
-
-| Parameter | Weight |
-|----------|--------|
-| Goals–Expertise Match | 40% |
-| Industry Match | 15% |
-| Experience | 10% |
-| Coaching Style | 10% |
-| Language | 10% |
-
----
 
 ## 🔹 Features
 
@@ -60,6 +49,21 @@ Optional AI Module (Embeddings / NLP-based improvements)
 - Fast response time (within a few seconds)
 
 ---
+## 🔹 Design Decisions
+
+Implemented a rule-based recommendation system with weighted scoring to prioritize key factors like goals and development areas.
+
+Provided explainable recommendations by returning reasons for each match.
+
+Used a Top-5 ranking strategy to improve user experience and reduce overload.
+
+Applied case-insensitive matching for better accuracy.
+
+Added experience capping to ensure balanced scoring.
+
+Designed the system with separation of concerns for scalability and maintainability.
+
+Kept the system lightweight (no AI dependency) for fast response times.
 
 ## 🔹 Tech Stack
 
@@ -82,6 +86,7 @@ Optional AI Module (Embeddings / NLP-based improvements)
   "preferredStyle": "friendly",
   "language": "English"
 }
+
 Sample Output:
 [
   {
@@ -90,21 +95,27 @@ Sample Output:
     "reason": "Expertise match, Same industry, Experienced coach"
   }
 ]
+
 🔹 Setup Instructions
 Backend:
 cd backend
 npm install
 npm run dev
+
 Frontend:
 cd frontend
 npm install
 npm start
+
 🔹 Environment Variables
+
 Create a .env file in the backend folder:
 
-MONGO_URI=mongodb+srv://Pritig15:Coachee123@cluster0.mhpwmfy.mongodb.net/myDatabase
+MONGO_URI=your_mongodb_connection_string
 PORT=5000
+
 🔹 Scalability
+
 To scale this system for 100,000+ users, the following improvements can be made:
 
 Use Redis for caching frequent queries
@@ -116,6 +127,7 @@ Move matching logic to a separate microservice
 Use vector databases for semantic similarity search
 
 🔹 Future Improvements
+
 AI-based recommendation system
 
 Embedding similarity search
@@ -128,8 +140,8 @@ Feedback-based ranking improvements
 
 ### UI Preview
 
-![App UI](images/image.png)
+![App UI](images/ui.png)
 
 🔹 Time Spent
-Approx. 8–10 hours
 
+Approx. 8–10 hours
