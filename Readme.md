@@ -127,7 +127,7 @@ Feedback-based ranking improvements
 
 ### UI Preview
 
-![App UI](images/ui.png)
+![App UI](images/UI.img.png)
 
 🔹 Time Spent
 
