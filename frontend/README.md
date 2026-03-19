@@ -111,7 +111,7 @@ npm start
 
 Create a .env file in the backend folder:
 
-MONGO_URI=your_mongodb_connection_string
+MONGO_URI=mongodb+srv://Pritig15:Coachee123@cluster0.mhpwmfy.mongodb.net/myDatabase
 PORT=5000
 
 🔹 Scalability
